@@ -1,6 +1,6 @@
 // User Navigate to Aluminati website and fill in the Contact Us form
 Cypress.Commands.add(
-  "contactus",
+  "contactUs",
   ({
     fullName, customerEmail, phoneNumber, customerOrganisation, jobTitle, customerMessage }) => {
     cy.visit(`/`);
